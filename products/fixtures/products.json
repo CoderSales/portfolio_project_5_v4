@@ -1,0 +1,128 @@
+[
+    {
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001340155",
+        "name": "clarinet",
+        "description": "The clarinet is a type of single-reed woodwind instrument. Like many wind instruments, clarinets are made in several different sizes, each having its own range of pitches. All have a nearly-cylindrical bore and a flared bell, and utilize a mouthpiece with a single reed.",
+        "price": 900.00,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": "https://cdn.pixabay.com/photo/2016/11/29/17/14/clarinet-1870572_960_720.png",
+        "image": "clarinet-hd-compressed.png"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001600425",
+        "name": "flute",
+        "description": "The Western concert flute is a family of transverse (side-blown) woodwind instruments made of metal or wood. It is the most common variant of the flute.",
+        "price": 750.00,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": "https://cdn.pixabay.com/photo/2015/08/18/12/43/flute-893911_960_720.jpg",
+        "image": "flute-hd-compressed.png"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001730010",
+        "name": "guitar",
+        "description": "The guitar is a fretted musical instrument that typically has six strings.",
+        "price": 150.00,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "https://images.unsplash.com/photo-1514649923863-ceaf75b7ec00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+        "image": "guitar-hd-compressed.png"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001890157",
+        "name": "harmonica",
+        "description": "The harmonica, also known as a French harp or mouth organ, is a free reed wind instrument used worldwide in many musical genres, notably in blues, American folk music, classical music, jazz, country, and rock.",
+        "price": 90.00,
+        "category": 3,
+        "rating": 3,
+        "image_url": "https://cdn.pixabay.com/photo/2015/02/18/20/23/harmonica-641425_960_720.jpg",
+        "image": "harmonica-c-major-hd-compressed.png"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002111605",
+        "name": "saxophone",
+        "description": "The saxophone is a type of single-reed woodwind instrument with a conical body, usually made of brass. As with all single-reed instruments, sound is produced when a reed on a mouthpiece vibrates to produce a sound wave inside the instrument's body. The pitch is controlled by opening and closing holes in the body to change the effective length of the tube.",
+        "price": 1000.00,
+        "category": 1,
+        "rating": 5,
+        "image_url": "https://cdn.pixabay.com/photo/2016/07/24/16/28/saxophone-1538743_960_720.png",
+        "image": "saxophone-hd-compressed.png"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002260206",
+        "name": "trombone",
+        "description": "The trombone (German: Posaune, Italian, French: trombone) is a musical instrument in the brass family. As with all brass instruments, sound is produced when the player's vibrating lips (embouchure) cause the air column inside the instrument to vibrate. Most brass instruments use valves to alter the pitch, but trombones have a telescoping slide mechanism instead.",
+        "price": 900.00,
+        "category": 4,
+        "rating": 4.7,
+        "image_url": "https://toppng.com/show_download/121237/trombone-png/large",
+        "image": "trombone-hd-compressed.png"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002440521",
+        "name": "trumpet",
+        "description": "The trumpet is a brass instrument commonly used in classical and jazz ensembles.  They are played by blowing air through nearly-closed lips (called the player's embouchure), producing a 'buzzing' sound that starts a standing wave vibration in the air column inside the instrument.  The use of rotary-valved trumpets is more common in orchestral settings (especially in German and German-style orchestras), although this practice varies by country.",
+        "price": 900.00,
+        "category": 4,
+        "rating": 4.4,
+        "image_url": "https://images.unsplash.com/photo-1573871669414-010dbf73ca84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+        "image": "trumpet-hd-compressed.png"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002601115",
+        "name": "tuba",
+        "description": "The tuba is the lowest-pitched musical instrument in the brass family. As with all brass instruments, the sound is produced by lip vibration, a buzz, into a mouthpiece.  Classification: Wind, Brass, Aerophone",
+        "price": 4500.00,
+        "category": 4,
+        "rating": 4.5,
+        "image_url": "https://flyclipart.com/john-packer-bb-tuba-tuba-png-439710",
+        "image": "tuba-bb-hd-compressed.png"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002690715",
+        "name": "violin",
+        "description": "The violin, sometimes known as a fiddle, is a wooden chordophone (string instrument) in the violin family. Most violins have a hollow wooden body. It is the smallest and thus highest-pitched instrument (soprano) in the family in regular use.  The violin typically has four strings (some can have five), usually tuned in perfect fifths with notes G3, D4, A4, E5, and is most commonly played by drawing a bow across its strings.",
+        "price": 2000.00,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "image": "violin-hd-compressed.png"
+      }
+    }
+  ]

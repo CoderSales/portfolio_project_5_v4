@@ -1,0 +1,29 @@
+[{
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+        "name": "woodwind",
+        "friendly_name": "Woodwind"
+    }
+}, {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+        "name": "strings",
+        "friendly_name": "Strings"
+    }
+}, {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+        "name": "wind",
+        "friendly_name": "Wind"
+    }
+}, {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+        "name": "brass",
+        "friendly_name": "Brass"
+    }
+}]
