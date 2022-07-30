@@ -17,10 +17,10 @@
                 Section
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="section-link">
-                <a href="" class="dropdown-item">Woodwind and wind</a>
-                <a href="" class="dropdown-item">Strings</a>
-                <a href="" class="dropdown-item">Brass</a>
-                <a href="" class="dropdown-item">All Instruments</a>
+                <a href="{% url 'products' %}?category=woodwind,wind" class="dropdown-item">Woodwind and wind</a>
+                <a href="{% url 'products' %}?category=strings" class="dropdown-item">Strings</a>
+                <a href="{% url 'products' %}?category=brass" class="dropdown-item">Brass</a>
+                <a href="{% url 'products' %}?category=woodwind,wind,strings,brass" class="dropdown-item">All Instruments</a>
             </div>
         </li>
     </ul>
