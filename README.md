@@ -112,3 +112,9 @@ Happy coding!
 - [contact form in Django](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
 
 - [Contact Pages in Django - Python Django Dentist Website #6](https://www.youtube.com/watch?v=w4ilq6Zk-08&ab_channel=Codemy.com)
+
+-[Property Shark](https://www.propertyshark.com/cre/commercial-property/us/ny/brooklyn/kings-plaza-1/)
+
+- [Google Maps](https://www.google.com/maps/place/5100+Kings+Plaza,+Brooklyn,+NY+11234,+USA/@40.610406,-73.920836,15z/data=!4m5!3m4!1s0x89c24343aaf82651:0xc506389a908ad755!8m2!3d40.6104056!4d-73.9208363?hl=en)
+
+- [responsive Google Maps](https://blog.duda.co/responsive-google-maps-for-your-website)
