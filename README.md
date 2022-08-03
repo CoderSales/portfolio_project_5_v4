@@ -118,3 +118,50 @@ Happy coding!
 - [Google Maps](https://www.google.com/maps/place/733+Third+Avenue/@40.7528964,-73.9722049,17z/data=!4m5!3m4!1s0x89c25902bb24e511:0xdcddc05af1f5f54f!8m2!3d40.7528964!4d-73.9722049)
 
 - [responsive Google Maps](https://blog.duda.co/responsive-google-maps-for-your-website)
+
+- [footer](https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html)
+
+# Django Docs:
+-[template inheritance](https://docs.djangoproject.com/en/dev/topics/templates/#template-inheritance)
+
+# Technologies used:
+- [find unclosed html tags](https://www.aliciaramirez.com/closing-tags-checker/)
+- [black.vercel.app Black v22.6.0 - The uncompromising Python code formatter.](https://black.vercel.app/?version=stable&state=_Td6WFoAAATm1rRGAgAhARYAAAB0L-Wj4APbAX1dAD2IimZxl1N_Wm_NXb2Os8irB1MDqzQDcQtisNWJvDnFDNHhUDbG_J14txUsT_cq67-JL-tIMEdhLUx59fJBtgkYugEKAX3fOkFkoE5PXN-eW11nCGaaeFErI_10l0QEGyiGAmQZEAXwS7GaFy9Ul0MuTyjpaD9_cwI-B2i9qCx0mQpryLQQUQy-O7AaS37gGmhJaS8twO7U5fJF4bYV0sSM6xF5F9-bbL5Nci0D_qsaC6Kbabxx0K4c6hSv3oSNXwg0zTQYktluZUAWNOQz5EwSwx91rifAwvg4bBYdvcPvvRU_EsRbHdhaf5rDwGdV7xoGxUQsWqCUZ0JPE1yUaLaIh1NuxrdCR304ii3WZizFGhEhe6RlSh6KFVFa2lmgRjR3lcR6D6N4fqrtsjf9mH8IhpQrlVANQncrzK6qmIzNtYxg7Px6N6pSGuIArkin51B6QzlqQcSDQhA1T4y8931h-Ia913xyu7dO7rz6znJl-C_lCyZk6TuzdlCCAAAAAABFZlemHWB38wABmQPcBwAAIvlR17HEZ_sCAAAAAARZWg==)
+- [heroku](https://www.heroku.com/)
+- [AWS S3](https://aws.amazon.com/)
+- [GitPod](https://www.gitpod.io/)
+- [GitHub](https://github.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Code Institute](https://codeinstitute.net/global/)
+- [Bootstrap](https://getbootstrap.com/)
+
+# Django and Packages
+- [Django](https://www.djangoproject.com/)
+- [Django allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
+- [Django countries](https://pypi.org/project/django-countries/)
+- [dj-database-url](https://pypi.org/project/dj-database-url/)
+- [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+- [django-storages](https://django-storages.readthedocs.io/en/latest/)
+- [gunicorn](https://gunicorn.org/)
+- [Pillow](https://pillow.readthedocs.io/en/stable/)
+
+# Other technologies
+- [stripe](https://stripe.com/)
+
+# Repositories
+- [Code-Institute-Solutions / boutique_ado_v1](https://github.com/Code-Institute-Solutions/boutique_ado_v1)
+
+# Bootstrap
+## Footer
+- [Header and footer](https://getbootstrap.com/docs/4.4/components/card/#header-and-footer)
+- [Bootstrap grid examples](https://getbootstrap.com/docs/3.4/examples/grid/) 
+- [Bootstrap: Force columns to stack up vertically on mobile (responsive design)](https://stackoverflow.com/questions/29825427/bootstrap-force-columns-to-stack-up-vertically-on-mobile-responsive-design)
+
+# How do urls work
+[urls - Django Documentation](https://docs.djangoproject.com/en/4.0/topics/http/urls/)
+
+# Bug 
+## Error:
+- [ModuleNotFoundError: No module named 'contact.urls'](https://www.google.com/search?q=ModuleNotFoundError%3A+No+module+named+%27contact.urls%27&oq=ModuleNotFoundError%3A+No+module+named+%27contact.urls%27&aqs=chrome..69i57j69i58.10334j0j7&sourceid=chrome&ie=UTF-8)
+## Reference
+- [Stackoverflow - No module named urls](https://stackoverflow.com/questions/2353416/no-module-named-urls)
