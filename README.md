@@ -115,6 +115,6 @@ Happy coding!
 
 -[Property Shark](https://www.propertyshark.com/cre/commercial-property/us/ny/brooklyn/kings-plaza-1/)
 
-- [Google Maps](https://www.google.com/maps/place/5100+Kings+Plaza,+Brooklyn,+NY+11234,+USA/@40.610406,-73.920836,15z/data=!4m5!3m4!1s0x89c24343aaf82651:0xc506389a908ad755!8m2!3d40.6104056!4d-73.9208363?hl=en)
+- [Google Maps](https://www.google.com/maps/place/733+Third+Avenue/@40.7528964,-73.9722049,17z/data=!4m5!3m4!1s0x89c25902bb24e511:0xdcddc05af1f5f54f!8m2!3d40.7528964!4d-73.9722049)
 
 - [responsive Google Maps](https://blog.duda.co/responsive-google-maps-for-your-website)
