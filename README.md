@@ -106,3 +106,9 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+# References
+- [contact form in Django](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
+
+- [Contact Pages in Django - Python Django Dentist Website #6](https://www.youtube.com/watch?v=w4ilq6Zk-08&ab_channel=Codemy.com)
