@@ -135,6 +135,7 @@ Happy coding!
 - [Code Institute](https://codeinstitute.net/global/)
 - [Bootstrap](https://getbootstrap.com/)
 
+
 # Django and Packages
 - [Django](https://www.djangoproject.com/)
 - [Django allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
