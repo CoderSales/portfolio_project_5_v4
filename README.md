@@ -111,7 +111,12 @@ Happy coding!
 # References
 - [contact form in Django](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
 
+# Tutorials
 - [Contact Pages in Django - Python Django Dentist Website #6](https://www.youtube.com/watch?v=w4ilq6Zk-08&ab_channel=Codemy.com)
+- [How To Send Email With Django - Python Django Dentist Website #7](https://youtu.be/xNqnHmXIuzU?t=41)
+
+# Git commit messages
+- [How to write multiline git commit messages](https://youtu.be/MOfBw3eGC08?t=167)
 
 -[Property Shark](https://www.propertyshark.com/cre/commercial-property/us/ny/brooklyn/kings-plaza-1/)
 

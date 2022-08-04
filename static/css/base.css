@@ -373,3 +373,38 @@ footer{
 #delivery-banner2 h4 {
     font-size: .9rem;
 }
+
+/* edit breadcrumb */
+.clear {
+    background-color: transparent;
+    padding: 0;
+}
+
+/* contact-form sizing */
+.form-sizing {
+    width: fit-content;
+}
+
+.button-custom-send {
+    background-color: #111;
+    color: #fff;
+}
+
+#height-container {
+    max-height: 15vh;
+}
+
+#height-spacer {
+    height: 5vh;
+}
+
+.to-be-centered {
+    text-align: center;
+}
+
+.flex-center { align-items: center; justify-content: center; flex-direction: column; } 
+
+
+li {float: none;}
+
+ol {display:inline;}

@@ -10,59 +10,104 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    Contact
-                </h1>
+<center>
+    <div class="container">
+                    <div class="my-5">
+                        <h4>
+                            <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+                        </h4>
+                    </div>
+    </div>
+</center>
+    <!-- https://youtu.be/xNqnHmXIuzU?t=602 -->
+    <!-- Breadcrumb area start -->
+<center>
+    <div class="breadcrum--con">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb clear">
+                            <li class="breadcrumb-item to-be-centered flex-center"><a href='#'>Home</a></li>
+                            <li class="breadcrumb-item active to-be-centered flex-center"
+                            aria-current="page">Contact</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</center>
+    <!-- Breadcrumb area end -->
+
+    {% if message_name %}
+        <center>
+            <h2 class="display-4 logo-font text-black">Thanks {{ message_name }}!</h2>
+            <p>We received your email</p>
+            <div class="container">
                 <div class="my-5">
                     <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+                        <a href="{% url 'contact' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">New Contact Form</a>
                     </h4>
                 </div>
-                <div>
-                    {% comment %} https://youtu.be/w4ilq6Zk-08?t=533 {% endcomment %}
-                    {% comment %} Contact Form {% endcomment %}
-                    <div class="col-12 col-md-8">
-                        <div class="contact-form">
-                            <div class="contact-form">
-                                {% comment %} Section Heading {% endcomment %}
-                                <div class="section-heading">
-                                    <h2>Get In Touch</h2>
-                                    <div class="line"></div>
-                                </div>
-                                <!-- Form -->
-                                <form action="{% url 'contact' %}" method="post">
-                                    {% csrf_token %}
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <input type="text" name="message-name"
-                                            class="form-control mb-30" placeholder=
-                                            "Your Name">
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <input type="email" name="message-email"
-                                            class="form-control mb-30"
-                                            placeholder="Your Email">
-                                        </div>
-                                        <div class="col-12">
-                                            <textarea name="message" class="
-                                            form-control mb-30" placeholder="Your 
-                                            Message"></textarea>
-                                        </div>
-                                        <div class="col-12">
-                                            <button type="submit" class="btn
-                                            dento-btn">Send Message</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div><!-- assumed closing tag-->
+            </div>
+        </center>
+        <br/><br/><br/>
+    {% else %}
+    <!-- Content Area Start -->
+    <section class="content-area bg-img bg-overlay">
+        {% comment %} <div class="container h-100">
+        </div> {% endcomment %}
+    <div class="container h-100" id="height-container">
+            <div class="row h-100">
+                <div class="col-7 col-md-6 my-auto">
+                    <h1 class="display-4 logo-font text-black">
+                        Contact Form
+                    </h1>
+                    <div>
+                        {% comment %} https://youtu.be/w4ilq6Zk-08?t=533 {% endcomment %}
+                        {% comment %} Contact Form {% endcomment %}
+                        <div class="col-12 col-md-8">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        <div class="contact-form form-sizing">
+            <div class="contact-form">
+                <!-- Section Heading -->
+                <div class="section-heading">
+                    <h2 class="display-4 logo-font text-black">Feel free to get in touch</h2>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <!-- Form -->
+            <form action="{% url 'contact' %}" method="post">
+            {% csrf_token %}
+            <div class="row">
+                <div class="col-lg-6">
+                    <input type="text" name="message-name"
+                    class="form-control mb-30" placeholder=
+                    "Your Name">
+                </div>
+                <div class="col-lg-6">
+                    <input type="email" name="message-email"
+                    class="form-control mb-30"
+                    placeholder="Your Email">
+                </div>
+                <div class="col-12">
+                    <textarea name="message" class="
+                    form-control mb-30" placeholder= 
+                    "Your Message"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Send Message</button>
+                </div>
+                <div class="col-12" id="height-spacer">
+                </div>
+            </div>
+            </form>
+        </div><!-- assumed closing tag-->
+
         <div class="map-responsive">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.414993156655!2d-73.9722049!3d40.752896400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25902bb24e511%3A0xdcddc05af1f5f54f!2s733%20Third%20Avenue!5e0!3m2!1sen!2sde!4v1659553391076!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -81,4 +126,6 @@
             </div>
         </div>
     </div>
+</section>
+{% endif %}
 {% endblock %}
