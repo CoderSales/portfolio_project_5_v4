@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.core.mail import send_mail
+from django.conf import settings
 
 
 def contact(request):
@@ -14,7 +15,7 @@ def contact(request):
             message_name, # subject
             message, # message
             message_email, # from email
-            ['recipeint@email.com', message_email], # to email
+            ['recipient@email.com', settings.DEFAULT_TO_EMAIL_SETTER, message_email], # to email
 
         )
         return render(request, 'contact.html', {'message_name': message_name})

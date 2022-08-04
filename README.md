@@ -171,3 +171,7 @@ Happy coding!
 - [ModuleNotFoundError: No module named 'contact.urls'](https://www.google.com/search?q=ModuleNotFoundError%3A+No+module+named+%27contact.urls%27&oq=ModuleNotFoundError%3A+No+module+named+%27contact.urls%27&aqs=chrome..69i57j69i58.10334j0j7&sourceid=chrome&ie=UTF-8)
 ## Reference
 - [Stackoverflow - No module named urls](https://stackoverflow.com/questions/2353416/no-module-named-urls)
+
+# import settings to views.py in contact app
+- [How to pass a variable from settings.py to a view?](https://stackoverflow.com/questions/3984648/how-to-pass-a-variable-from-settings-py-to-a-view)
+- [Using settings in Python code](https://docs.djangoproject.com/en/dev/topics/settings/#using-settings-in-python-code)
