@@ -12,10 +12,11 @@ def contact(request):
         # send an email
 
         send_mail(
-            message_name, # subject
-            message, # message
-            message_email, # from email
-            ['recipient@email.com', settings.DEFAULT_TO_EMAIL_SETTER, message_email], # to email
+            message_name,  # subject
+            message,  # message
+            message_email,  # from email
+            ['recipient@email.com', settings.DEFAULT_TO_EMAIL_SETTER,
+             message_email],  # to email
 
         )
         return render(request, 'contact.html', {'message_name': message_name})

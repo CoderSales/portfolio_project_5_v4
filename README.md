@@ -175,3 +175,45 @@ Happy coding!
 # import settings to views.py in contact app
 - [How to pass a variable from settings.py to a view?](https://stackoverflow.com/questions/3984648/how-to-pass-a-variable-from-settings-py-to-a-view)
 - [Using settings in Python code](https://docs.djangoproject.com/en/dev/topics/settings/#using-settings-in-python-code)
+
+# Media References
+(Note: image links are also in products/fixtures/products.json)
+- [clarinet-hd-compressed.png](https://cdn.pixabay.com/photo/2016/11/29/17/14/clarinet-1870572_960_720.png)
+- [flute-hd-compressed.png](https://cdn.pixabay.com/photo/2015/08/18/12/43/flute-893911_960_720.jpg)
+- [guitar-hd-compressed.png](https://images.unsplash.com/photo-1514649923863-ceaf75b7ec00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80)
+- [harmonica-c-major-hd-compressed.png](https://cdn.pixabay.com/photo/2015/02/18/20/23/harmonica-641425_960_720.jpg)
+- [saxophone-hd-compressed.png](https://cdn.pixabay.com/photo/2016/07/24/16/28/saxophone-1538743_960_720.png)
+- [trombone-hd-compressed.png](https://toppng.com/show_download/121237/trombone-png/large)
+- [alt link to trombone image with embeddable script](https://toppng.com/trombone-png-PNG-free-PNG-Images_121237)
+- [trumpet-hd-compressed.png](https://images.unsplash.com/photo-1573871669414-010dbf73ca84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80)
+- [tuba-bb-hd-compressed.png](https://flyclipart.com/john-packer-bb-tuba-tuba-png-439710)
+- [violin-hd-compressed.png](https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
+
+# Ignoring Errors with Flake8
+- Used in portfolio_project_5_v4/urls.py on last line, as the command ```# noqa: F811,E501``` [Ignoring Errors with Flake8](https://flake8.pycqa.org/en/3.1.1/user/ignoring-errors.html)
+# Note on dependabot security update
+As per the LMS Tutorial which mentioned incorporating dependabot 
+security updates, one of the options given was
+to simply merge the pull request from the 
+dependabot which only added 3 characters to the 
+project ".14" to update Django from 3.2 to 3.2.14
+so that the project was no longer susceptible
+to what were deemed by the bot to be
+critical security vulnurabilities
+allowing the potential
+for SQL injection.
+However, the tutorial mentioned that this would not be applicable here,
+but since issued the severity had increased, so it 
+was decided to merge the pull request,
+which led to 2 contributors being listed
+on the project
+i.e. the first being the author and
+the second being the dependabot
+(for adding ".14" to the requirements.txt file on a single merge commit).
+[commit 0218233861c9ce95cf75731a46a584361da3a17f Showing 1 changed file with 1 addition and 1 deletion.](https://github.com/Coder731/portfolio_project_5_v4/commit/0218233861c9ce95cf75731a46a584361da3a17f)
+In a previous trial run at this project, the commit was done manually,
+which did not result in the dependabot being listed as a contributor,
+so it was quite surprising when
+accept security update was selected
+that dependabot was listed 
+as a contributor.
