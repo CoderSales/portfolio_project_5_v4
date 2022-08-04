@@ -14,7 +14,7 @@ def contact(request):
             message_name, # subject
             message, # message
             message_email, # from email
-            ['recipeint@email.com'], # to email
+            ['recipeint@email.com', message_email], # to email
 
         )
         return render(request, 'contact.html', {'message_name': message_name})
