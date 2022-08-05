@@ -369,3 +369,6 @@ On sidebar User Groups clicked.
 Group selected.
 #### Permissions tab
 Opened add permissions dropdown
+
+# Heroku config vars
+heroku config vars ![heroku config vars](portfolio_project_5_v4/media/README_images/heroku-config-vars.png)
