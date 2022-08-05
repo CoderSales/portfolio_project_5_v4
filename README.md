@@ -371,4 +371,4 @@ Group selected.
 Opened add permissions dropdown
 
 # Heroku config vars
-heroku config vars ![heroku config vars](portfolio_project_5_v4/media/README_images/heroku-config-vars.png)
+heroku config vars ![heroku config vars](media/README_images/heroku-config-vars.png)
