@@ -235,3 +235,116 @@ Facebook
 
 ## Add link to contact app
 
+
+# Reference for todo app
+- used for todo  app [Django To Do List App With User Registration & Login](https://youtu.be/llbtoQTt4qw?t=237
+
+# Testing
+
+the following sites are working on the local site:
+[/todo/](https://8000-coder731-portfolioproje-cy03inats4r.ws-eu59.gitpod.io/todo/)
+[/todo/task/1/](https://8000-coder731-portfolioproje-cy03inats4r.ws-eu59.gitpod.io/todo/task/1/)
+[/todo/task/2/](https://8000-coder731-portfolioproje-cy03inats4r.ws-eu59.gitpod.io/todo/task/2/)
+[/contact/](https://8000-coder731-portfolioproje-cy03inats4r.ws-eu59.gitpod.io/contact/)
+
+the following sites have been tested on the heroku deployed app:
+[/products/](https://portfolio-project-5-v4.herokuapp.com/products/)
+[]()
+
+# Bug Fixed
+Was having an issue where by all pages were giving 500 errors with deployed and local images not showing.
+
+## Problem Statement
+I have run migrations at least once today as I added two or three new models but now images are not showing on local at all except for background and not in individual product views on heroku, with the latter giving a 500 error.
+
+
+## Attempts
+I discovered the issue on my local so I ran another deploy on heroku to see if it was just a local issue but now the individual products are not showing there either I am not sure what to do. I have not yet tried rolling back migrations.
+
+Redeploy heroku
+
+## Solution:
+
+rerun the commands:
+
+python3 manage.py loaddata categories
+python3 manage.py loaddata products
+
+add DEVELOPMENT = 1 variable temporarily to herokku config vars
+
+run 
+heroku login -i
+
+run 
+heroku run python3 manage.py migrate --app herokuprojectappname
+
+
+# Marketing
+
+## Facebook
+- [Facebook page for a business](https://sproutsocial.com/insights/facebook-business-page-guide/)
+
+# Deployment
+## Reference
+
+## Heroku
+
+Heroku notices python app as this files is in root folder:
+- requirements.txt
+This allows the Python buildpack to proceed. 
+- [Deploying Python and Django Apps on Heroku](https://devcenter.heroku.com/articles/deploying-python)
+
+
+## AWS
+Followed Code Institute Deployment Tutorials and Changes sheet.
+
+Amazon Web services was used to host media and static files.
+
+S3 used.
+
+Changes to AWS deployment:
+On create bucket:
+ACLs enabled, allowing objects in bucket to be owned by AWS accounts.
+
+Object ownership:
+Bucket owner preferred option selected.
+
+Under S3 bucket settings:
+The new page is scrollable as opposed to the old one where you click through each option.
+Properties tab > scroll to bottom of page > static website hosting
+Permissions tab > 3 settings.
+
+## The Cross-origin resource sharing (CORS) section
+The following was pasted into the CORS section:
+
+```
+[
+    {
+        "AllowedHeaders": [
+            "Authorization"
+        ],
+        "AllowedMethods": [
+            "GET"
+        ],
+        "AllowedOrigins": [
+            "*"
+        ],
+        "ExposeHeaders": []
+    }
+]
+
+```
+
+## Bucket Policy
+
+
+## ACL Access control list
+enabled 
+List 
+for
+Everyone (public access)
+
+- Accepted warning box
+
+At this point a disabled edit button would have indicated
+Object Ownership needed to be changed to ACLs enabled.
