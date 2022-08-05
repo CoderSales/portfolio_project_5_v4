@@ -217,3 +217,21 @@ so it was quite surprising when
 accept security update was selected
 that dependabot was listed 
 as a contributor.
+
+# ToDo / Further work:
+## Testing
+
+## Unfinished elements
+Due to time constraints:
+- the review model needs more refinement.
+- ideally edit button would handle the issue
+of one review per customer.
+
+## SEO
+meta tags
+
+## Marketing
+Facebook
+
+## Add link to contact app
+

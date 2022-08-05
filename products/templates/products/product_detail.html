@@ -37,8 +37,8 @@
                         </a>
                     </p>
                     {% endif %}
-                    {% if product.rating %}
-                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                    {% if rating %}
+                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ rating }} / 5</small>
                     {% else %}
                         <small class="text-muted">No Rating</small>
                     {% endif %}
@@ -95,6 +95,48 @@
             </div>
         </div>
     </div>
+    
+    <div class="w-100 mt-6">
+        <h2 class="text-xl">Reviews</h2>
+
+        {% if request.user.is_authenticated %}
+            <form method="post" action="." class="mt-20 mb-10 mp-6 bg-gray-100 rounded-xl">
+                {% csrf_token %}
+            
+                <div>
+                    <label>Rating</label><br>
+                    <select name="rating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3" selected>3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Comment</label><br>
+                    <textarea name="content"></textarea>
+                </div>
+
+                <div>
+                    <button>Submit</button>
+                </div>
+            </form>
+        {% endif %}
+    </div>
+
+    <div>
+        {% for review in product.reviews.all %}
+            <div class="px-4 py-6 bg-gray-100 rounded-xl mb-4">
+                <strong>Rating: </strong> {{ review.rating }}/5<br>
+                <strong>Comment:</strong>
+                {{ review.content }}
+            </div>
+        {% endfor %}
+    </div>
+
+
     {% endblock %}
 
     {% block postloadjs %}
