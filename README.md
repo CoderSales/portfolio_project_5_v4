@@ -348,3 +348,24 @@ Everyone (public access)
 
 At this point a disabled edit button would have indicated
 Object Ownership needed to be changed to ACLs enabled.
+
+Access Control List (ACL)
+both list and write options under Objects column were selected.
+both read and write options under Bucket ACL column were selected.
+
+Under Objects column: List  was enabled 
+
+## Identity and Access Management (IAM)
+### Create group
+User groups selected on side bar
+### Create policy
+Clicked Button to go to next page to add tags.
+Even though tags were  not used, 
+this step is necessary to get to 
+the review policy page.
+
+### Attach policy
+On sidebar User Groups clicked.
+Group selected.
+#### Permissions tab
+Opened add permissions dropdown
