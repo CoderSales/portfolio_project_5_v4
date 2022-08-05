@@ -372,3 +372,52 @@ Opened add permissions dropdown
 
 # Heroku config vars
 heroku config vars ![heroku config vars](media/README_images/heroku-config-vars.png)
+
+# SEO
+Search Engine Optimisation
+
+## Reference
+- [Growing Your Small Business Through Search Engine Optimization](https://youtu.be/681m2QGIF8c?t=32)
+
+3 steps:
+1. see where website ranks cueerntly online
+2. looking where competitors rank
+3. Finding the right keywords and search phrases that your target customers tend to use on a daily basis.
+
+## Reference
+- I noticed this was a good Readme to try and learn from specifically for SEO. [Clay and fire GitHub repo](https://github.com/SamanthaBooth81/clay_and_fire)
+
+## Methodology
+
+In Google I searched:
+musical instruments
+musical instruments stores
+musical instruments stores online
+buy musical instruments
+    found:
+    - this used the terms Gear and marketplace [reverb](https://reverb.com/)
+- [gear for music](https://www.gear4music.com/)
+
+
+from this I searched:
+musical instrument gear shop store online
+orchestral musical instrument gear shop store online
+
+# Further information on SEO
+- google search [How our Quality Raters make Search results better](https://support.google.com/websearch/answer/9281931?hl=en)
+- [google search quality guidelines](https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf)
+
+# SEO theory
+short tail vs long tail keywords
+short more competitive
+less focused
+
+# Further keyword research
+other keywords less directly applicable that the user may use in which this site for musical instruments may turn up
+
+musical instrument lessons
+learning a musical instrument
+how to play instruements
+listening to music
+composers
+musical analysis
