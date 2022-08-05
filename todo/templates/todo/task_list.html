@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Wish list</h1>
+<p style="height: 40vh;"></p>
+<p style=" padding-left: 30vw; width: 30vw;"></p><p></p>
+
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Item</th>
+        </tr>
+        {% for task in tasks %}
+        <tr>
+            <td>{{task.title}}</td>
+            <td><a href="{% url 'task' task.id %}">View</a></td>
+        </tr>
+        {% empty %}
+            <h3>No items in list</h3>
+        {% endfor %}
+    </table>
+{% endblock %}

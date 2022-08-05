@@ -54,6 +54,7 @@ INSTALLED_APPS = [
 
     # Custom
     'contact',
+    'todo.apps.TodoConfig',
 ]
 
 MIDDLEWARE = [
