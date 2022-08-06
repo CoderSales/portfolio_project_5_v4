@@ -1,6 +1,8 @@
 # Introduction
 Portfolio_Project_5_v4 is an E-commerce website built using the Python/Django Framework to sell Musical Instruments.
 
+-[am I responsive](https://ui.dev/amiresponsive)
+- ![Responsiveness of site across devices](/media/README_images/am_I_responsive_compressed.png)
 
 # References
 - [contact form in Django](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
@@ -263,9 +265,6 @@ On sidebar User Groups clicked.
 Group selected.
 #### Permissions tab
 Opened add permissions dropdown
-
-# Heroku config vars
-heroku config vars ![heroku config vars](media/README_images/heroku-config-vars.png)
 
 # SEO
 Search Engine Optimisation
