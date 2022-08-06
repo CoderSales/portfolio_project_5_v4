@@ -18,7 +18,17 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from .views import handler404
+# sitemap
+# from django.contrib.sitemaps.views import sitemap
+# from django.contrib import sitemaps
+# # https://stackoverflow.com/questions/25220561/django-1-6-
+# # name-sitemaps-is-not-defined
+# from sitemaps import StaticViewSitemap
 
+
+# sitemaps = {
+#     'static': StaticViewSitemap
+# }
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -30,5 +40,8 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('contact/', include('contact.urls')),
     path('todo/', include('todo.urls')),
+    # path('sitemap.xml', sitemap,
+    #      {'sitemaps': sitemaps},
+    #      name='django.contrib.sitemaps.views.sitemap')
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 handler404 = 'portfolio_project_5_v4.views.handler404'  # noqa: F811,E501

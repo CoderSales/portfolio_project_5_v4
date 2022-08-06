@@ -55,6 +55,9 @@ INSTALLED_APPS = [
     # Custom
     'contact',
     'todo.apps.TodoConfig',
+
+    # sitemap
+    # 'django.contrib.sitemaps',
 ]
 
 MIDDLEWARE = [
