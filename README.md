@@ -370,4 +370,5 @@ from this search "buy violin" seems to have high volume and low competition.
  # robots.txt
  - [Introduction to robots.txt](https://developers.google.com/search/docs/advanced/robots/intro#:~:text=txt-,A%20robots.,or%20password%2Dprotect%20the%20page.)
 
- 
+ # Deployment note
+In settings.py, Debug set to False so that excess information used in Development is not presented in production, for security.
