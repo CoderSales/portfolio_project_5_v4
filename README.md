@@ -4,6 +4,9 @@ Portfolio_Project_5_v4 is an E-commerce website built using the Python/Django Fr
 -[am I responsive](https://ui.dev/amiresponsive)
 - ![Responsiveness of site across devices](/media/README_images/am_I_responsive_compressed.png)
 
+
+
+
 # References
 - [contact form in Django](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
 
@@ -374,7 +377,7 @@ In settings.py, Debug set to False so that excess information used in Developmen
 
 # Credits
 ## README
-- For README Contents Structure [american-ale-house](https://github.com/Steven-Dawson18/american-ale-house/blob/main/README.md?plain=1)
+- For structure [README.so](https://readme.so/editor)
 - For SEO [Clay and fire GitHub repo](https://github.com/SamanthaBooth81/clay_and_fire)
 ## Tutorials
 ### Django
