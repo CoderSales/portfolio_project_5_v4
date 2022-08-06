@@ -371,3 +371,11 @@ from this search "buy violin" seems to have high volume and low competition.
 
  # Deployment note
 In settings.py, Debug set to False so that excess information used in Development is not presented in production, for security.
+
+# Credits
+## README
+- For README Contents Structure [american-ale-house](https://github.com/Steven-Dawson18/american-ale-house/blob/main/README.md?plain=1)
+- For SEO [Clay and fire GitHub repo](https://github.com/SamanthaBooth81/clay_and_fire)
+## Tutorials
+### Django
+- [Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1)
