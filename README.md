@@ -382,3 +382,5 @@ In settings.py, Debug set to False so that excess information used in Developmen
 ## Tutorials
 ### Django
 - [Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1)
+
+- Used for task managemment [YouTrack](https://coder731.youtrack.cloud/newIssue?project=C731&draftId=2-59)
